@@ -43,7 +43,8 @@ The project is done with the purpose of:
 
 * Finding out factors which affects priority and training a model which accurately predicts it so that preventive measures can be taken for High Priority Tickets and reassigning can be reduced.
 * Finding out factors which affect RFC and predicting it.
-* Forecasting Incident Volume in the future so that they can be better prepared with resources and technology planning.
+* Forecasting Incident Volume in the future so that they can be better prepared with resources and technology planning.<br>
+
 The following steps are carried out:
 
 * Importing the data, necessary libraries, & exploring the data to look for missing values.
