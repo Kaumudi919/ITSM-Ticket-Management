@@ -37,3 +37,17 @@ Machine learning looks prospective to improve ITSM processes through prediction 
 23.	No_of_Related_Incidents: This column refers to the number of related incidents associated with the incident being reported.<br>
 24.	No_of_Related_Changes: This column refers to the number of related changes associated with the incident being reported. Changes can include things like updates to software, hardware upgrades, or modifications to IT infrastructure.<br>
 25.	Related_Change: This column refers to the specific change or modification associated with the incident being reported.<br>
+
+#### Summary:
+The project is done with the purpose of:
+
+* Finding out factors which affects priority and training a model which accurately predicts it so that preventive measures can be taken for High Priority Tickets and reassigning can be reduced.
+* Finding out factors which affect RFC and predicting it.
+* Forecasting Incident Volume in the future so that they can be better prepared with resources and technology planning.
+The following steps are carried out:
+
+* Importing the data, necessary libraries, & exploring the data to look for missing values.
+* Selecting the features for analysis, label encoding the ordinal column and splitting the data into test & train.
+* Training the data using algorithms like Support Vector Machine, Decision Tree, Random Forest, K-Nearest Neighbor, XGBoost Classifier and Artificial Neural Network and checking the accuracy to find out which algorithm is the best.
+* Exporting the model with highest accuracy.
+* For Incident Volume Forecasting, Ticket Opening Time is taken and Time Series Forecasting is used.
